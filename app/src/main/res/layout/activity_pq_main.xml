@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_delay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="延时"
+        android:textSize="@dimen/size_24"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定位"
+        android:textSize="@dimen/size_24"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/btn_adjust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微调"
+        android:textSize="@dimen/size_24"
+        android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/tv_send"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_200"
+        android:singleLine="false"
+        android:background="#F8E0D6"
+        android:textSize="@dimen/size_20"/>
+
+    <TextView
+        android:text="消息接收区域"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0099"
+        android:textSize="@dimen/size_20"/>
+    <EditText
+        android:gravity="top|left|center"
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:singleLine="false"
+        android:background="#F8E0D6"
+        android:textSize="@dimen/size_20"/>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'android-apt'
+//apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.hw.pq"
+        minSdkVersion 18
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+//    splits {
+//        abi {
+//            enable true
+//            reset()
+//            include 'x86', 'armeabi-v7a','x86_64'
+//            universalApk true
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs '../app/libs'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //ui
+    implementation 'com.android.support:support-v13:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+    //rx
+    implementation 'io.reactivex:rxjava:1.1.1'
+    implementation 'io.reactivex:rxandroid:1.1.0'
+    implementation 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+
+    //network
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+
+    //di
+    implementation 'com.google.dagger:dagger:2.0.2'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.0.2'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compileOnly 'org.glassfish:javax.annotation:10.0-b28'
+
+    //other
+    implementation 'me.yokeyword:fragmentation:0.7.9'
+    implementation 'com.github.zhaokaiqiang.klog:library:1.6.0'
+    implementation 'com.github.WGwangguan:SeparatedEditText:v1.0'
+    implementation 'me.jessyan:autosize:1.1.2'
+    implementation 'com.ashokvarma.android:bottom-navigation-bar:1.3.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+    implementation 'com.blakequ.rsa:rsa:1.1'
+    implementation 'com.github.anzaizai:EasySwipeMenuLayout:1.1.4'
+    implementation 'com.yanzhenjie:permission:2.0.0-rc2'
+
+    implementation 'com.github.0xZhangKe:WebSocketDemo:3.1'
+
+}

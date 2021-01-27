@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Tunai</string>
+
+    <string name="home">HOME</string>
+    <string name="mine">AKUN</string>
+
+    <string name="my_loan">Pinjaman saya</string>
+    <string name="all">Semua</string>
+    <string name="pending">Belum selesai</string>
+    <string name="not_repay">Dana cair</string>
+    <string name="repayed">Sudah lunas</string>
+    <string name="service_online">Layanan online</string>
+    <string name="complain_center">Pusat pengaduan</string>
+    <string name="unregister">Pengaturan</string>
+    <string name="borrow_process">Proses Peminjaman</string>
+    <string name="identify_info">Informasi identitas</string>
+    <string name="person_info">Informasi pribadi</string>
+    <string name="work_info">Informasi pekerjaan</string>
+    <string name="e_contact">Kontak darurat</string>
+    <string name="bank_card_info">Informasi bank</string>
+    <string name="loan_agreement">Saya telah membaca dan setuju</string>
+    <string name="start_loan">Mulai Pinjam</string>
+
+    <string name="customer_service_center">Pusat layanan pelanggan</string>
+    <string name="low_rate">Suku bunga rendah</string>
+    <string name="low_rate_tip">ku bunga rendah  Umur 17 tahun keatas boleh pinjam</string>
+    <string name="instantly_loan">SEGERA AMBIL</string>
+
+    <string name="max_amount">Jumlah maksimum</string>
+    <string name="loan_term">lstilah pinjaman</string>
+    <string name="rate">Bunga</string>
+    <string name="loan_tip_a">Anda memiliki pinjaman, mohon lunasi tepat waktu.</string>
+    <string name="submit_done">Penyelesaian Pengajuan</string>
+    <string name="auditing">Sedang ditinjau</string>
+    <string name="audit_tip_a">Aplikasi data anda telah diajukan sekarang,silahkan menunggu persetujuan</string>
+    <string name="unregister_product">Logout Product name?</string>
+    <string name="unregister_product_tip">Apakah anda yakin ingin logout?</string>
+    <string name="cancel">BATAL</string>
+    <string name="yes">YA</string>
+
+    <string name="order_settled">Order has been settled</string>
+    <string name="loan_settled">Your loan has been fully settled!</string>
+    <string name="loan_amount">Jumlah Pinjaman</string>
+    <string name="loan_rate">Bunga awal</string>
+    <string name="repay_date">Waktu pembayaran kembali</string>
+    <string name="borrower_account">Rekening Penerima</string>
+    <string name="loan_quota">Jumlah Pinjaman </string>
+    <string name="borrow_date">Waktu pinjaman</string>
+    <string name="payer_account">Rekening Penerima</string>
+    <string name="loan_date">Tanggal Pinjaman</string>
+    <string name="pay_date">Tanggal Pinjaman</string>
+    <string name="order_finish">Pesanan selesai</string>
+    <string name="instantly_pay">Bayar Segera</string>
+
+    <string name="congratulations">Selamat</string>
+    <string name="repay_success">Pembayaran sukses</string>
+    <string name="exception_tip_a">Koneksi jaringan tidak normal.Silkan periksa jaringan</string>
+
+    <string name="loan_success">Pinjaman sukses</string>
+    <string name="loan_success_tip">Aplikasi data anda telah setujui</string>
+
+    <string name="credit_tip">Kredit score anda bagus,kami sudahmembuka banyak pilihan produk,ajukan dibeberapa produk,tingkat ACCdata Lebih tinggi</string>
+    <string name="back_home">kembali ke beranda</string>
+
+    <string name="applying">Belum selesai</string>
+    <string name="pending_repay">Dana cair</string>
+    <string name="repay_done">Sudah lunas</string>
+    <string name="pending_check">Untuk dikonfirmasi</string>
+
+    <string name="right_desc">Dwmonstrasi yang Benar</string>
+    <string name="ktp_tip_a">Jangan mennutupi KTP dengan jari Anda</string>
+    <string name="ktp_tip_b">Sesuaikan posisi KTP dalam kolom yag tersedia</string>
+    <string name="ktp_tip_c">Hindari pantulan cahaya</string>
+    <string name="next">BERKUTNYA</string>
+
+    <string name="virtual_account">Virtual account</string>
+    <string name="total_pay">Total Pembayaran</string>
+    <string name="bill_no">No Tagihan</string>
+    <string name="select_repay_way">Ubah cara pembayaran</string>
+    <string name="atm_tip_a">ATM</string>
+    <string name="atm_tip_b">1. Masukkan kartu ATM dan pilih “Bahasa Indonesia”.</string>
+    <string name="atm_tip_c">2. Ketik nomor PIN dan tekan BENAR.</string>
+    <string name="atm_tip_d">3.Pilih menu BAYAR/BELI,kemudian pilih menu MULTIPAYMENT.</string>
+    <string name="atm_tip_e">4.Ketik kode perusahaan,yaitu “89251”(Instamoney 89251),tekan”BENAR”.</string>
+    <string name="atm_tip_f">5.Masukkan nomor Virtual Account.</string>
+    <string name="atm_tip_g">6.Isi NOMINAL,kemudian tekan “BENAR”.</string>
+    <string name="atm_tip_h">7.Muncul konfirmasi data customer.Pilih Nomor 1 sesuai tagihan yang akan dibayar,kemudian tekan “YA”.</string>
+    <string name="atm_tip_i">8.Muncul konfirmasi pembayaran.Tekan “YA”.</string>
+    <string name="atm_tip_j">9.Bukti pembayaran dalam bentuk struk agar disimpansebagai bukti pembataran yang sah dari Bank Mandiri.</string>
+    <string name="repay_finish">TELAN MEMBAYAR</string>
+
+    <string name="apply_fail_tip_a">Mohon maaf, anda tidak memenuhi kwalifikasi aplikasi kami,silahkan ajuin kembali ditanggal 30-21-2020.</string>
+    <string name="apply_fail_tip_b">Silahkan menunggah kembali foto KTP Dan foto selfie,akan lebih cepat lolos dari verifikasi.</string>
+
+    <string name="apply_tip_a">Tidak ada lagi konten Pergi dan ajukan pinjaman</string>
+    <string name="apply_loan">Ajukan pinjaman</string>
+
+    <string name="contact_a">ubungan Dengan Kontak Darurat 1</string>
+    <string name="contact_b">ubungan Dengan Kontak Darurat 2</string>
+    <string name="contact_name">Nama Kontak Darurat</string>
+    <string name="contact_phone">Nomor Telepon Kontak Darurat</string>
+
+    <string name="auth_tip">Prompt</string>
+    <string name="auth_tip_a">Anda yakin ingin meninggalkan sertifikasi? Melengkapi data sertifikasi akan meningkatkan tingkat keberhasilan pinjaman Anda</string>
+    <string name="auth_tip_next">Lanjutkan</string>
+    <string name="auth_tip_give_up">Menyerah</string>
+    <string name="auth_success">Otentikasi berhasil~</string>
+    <string name="auth_success_tip">Mulailah pinjaman Anda</string>
+
+    <string name="settle_detail">Detail Tagihan</string>
+    <string name="repay">Pelunasan</string>
+    <string name="repay_tip_a">Klik tombol pembayaran untuk memasuki proses pembayaran</string>
+    <string name="repay_tip_b">1.Demi menjaga rahasia Pribadi anda,mohon tidak memberikan kode verifikasi kesiapapun </string>
+    <string name="repay_tip_c">2.Diperhatikan,semua produk蝗虫01 hanya dapat menerima petunjuk 蝗虫01,pengembalian dalam bentuk lain adalah penipuan!pengembalian dalam！</string>
+    <string name="repay_all">Bayar semua total pembayaran</string>
+
+    <string name="bank_tip_a">Nomor rekening bank Anda salah,Silahkan mengkoreksi dan pengajuan ulang</string>
+    <string name="bank_card">Informasi bank</string>
+    <string name="bank_name">Nama Bank</string>
+    <string name="bank_full_name">Nama Lengkap</string>
+    <string name="bank_account">Normor Rekening</string>
+    <string name="bank_account_tip">Ketik Ulang Nomor Rekening</string>
+
+    <string name="info_identity">Informasi identitas</string>
+    <string name="info_tel">Nomor Telepon</string>
+    <string name="info_ktp">Nama sesuai KTP</string>
+    <string name="info_id">Nomor KTP</string>
+    <string name="info_birth">Tgl Lahir</string>
+    <string name="info_identity_tip_a">*Informasi identitas tidak dapat dirubah setalah verifikasi</string>
+    <string name="info_identity_tip_b">Tampak Depan KTP</string>
+    <string name="info_identity_tip_c">Identifikasi Wajah</string>
+    <string name="info_identity_tip_d">*Silahkan unggah foto bagian depan KTP yang jelas</string>
+    <string name="info_identity_tip_e">*lkuti langkah-langkah untuk menyelesaikan pengenalan wajah</string>
+    <string name="info_identity_tip_f">Tips:Foto KTP yang jelas akan meningkatkan tingkat persetujuan</string>
+    <string name="info_save">SIMPAN</string>
+
+    <string name="info_person">Informasi pribadi</string>
+    <string name="info_gender">Jenis kelamin</string>
+    <string name="info_edu">Tingkat Pendidikan</string>
+    <string name="info_marriage">Status pernikahan</string>
+    <string name="info_live">Jenis tempat tinggal</string>
+    <string name="info_home_tel">Telepon rumah</string>
+    <string name="info_home_city">Kota asal</string>
+    <string name="info_home_addr">Alamat rumah</string>
+    <string name="borrow_reason">Alasan meminjam</string>
+
+    <string name="info_work">Informasi pekerjaan</string>
+    <string name="info_work_name">Nama Perusahaan</string>
+    <string name="info_work_city">Kota kerja</string>
+    <string name="info_work_addr">Alamat perusahaan</string>
+    <string name="info_work_tel">Telepon perusahaan</string>
+    <string name="info_work_salary">Pendapatan bulanan rata-rata</string>
+    <string name="info_work_type">Jenis pekerjaan</string>
+    <string name="info_work_industry">Industri pekerjaan</string>
+    <string name="info_work_salary_day">Hari bayaran</string>
+    <string name="info_work_seniority">lama bekerja</string>
+
+    <string name="info_loan">Informasi Pinjaman</string>
+    <string name="info_loan_service_fee">Biaya layanan pengenda</string>
+    <string name="info_loan_host_fee">Biaya layanan platform</string>
+    <string name="info_loan_payer_bank">KINNFKDA</string>
+    <string name="info_select_bank_card">Ganti kartu bank</string>
+    <string name="info_agree_loan">MENYETUJUI PINJAMAN</string>
+
+</resources>

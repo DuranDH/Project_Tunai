@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners
+        android:topLeftRadius="@dimen/auto_size_8"
+        android:topRightRadius="@dimen/auto_size_8"
+        android:bottomLeftRadius="@dimen/auto_size_8"
+        android:bottomRightRadius="@dimen/auto_size_8" />
+
+    <gradient
+        android:startColor="#ff92abff"
+        android:endColor="#ff6e8fff"
+        android:angle="0" />
+
+</shape>
